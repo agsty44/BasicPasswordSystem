@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <title>Signup Page</title>
+</head>
+
+<body>
+    <h1>Signup Page</h1>
+    <form action="../PHP/signup.php" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="userID">UserID:</label>
+            <input type="number" id="userID" name="userID" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <input type="submit" value="Sign Up">
+    </form>
+    <a href="/index.html">Return Home</a>
+</body>
+
+</html>
